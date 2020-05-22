@@ -1,3 +1,3 @@
-const app = require('./app');
+const index = require('./index');
 
-app.listen(3333);
+index.listen(3333);

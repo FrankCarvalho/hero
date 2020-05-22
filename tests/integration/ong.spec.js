@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../../src/app');
+const index = require('../../src/index');
 const connection = require('../../src/database/connection');
 
 describe('ONG', () => {
@@ -13,7 +13,7 @@ describe('ONG', () => {
     });
 
     it('should be able to crate a new ONG', async () => {
-        const response = await request(app)
+        const response = await request(index)
         .post('/ongs').send({           
                 nome: "APAE",
                 email: "contato@apae.com.br",
