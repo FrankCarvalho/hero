@@ -47,7 +47,4 @@ routes.get('/incidents', celebrate({
 
 routes.delete('/incidents/:id', IncidentsController.delete);
 
-
-
-
 module.exports = routes; 
