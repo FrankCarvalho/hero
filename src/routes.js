@@ -7,7 +7,7 @@ const ProfileController = require('./controllers/profileController');
 const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
-
+//Rotas da plataforma
 //Listagem de ongs & Cadastro de ongs
 routes.get('/ongs', OngController.index);
 
