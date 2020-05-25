@@ -5,10 +5,9 @@ const OngController = require('./controllers/OngController');
 const IncidentsController = require('./controllers/IncidentsController');
 const ProfileController = require('./controllers/profileController');
 const SessionController = require('./controllers/SessionController');
-
+//Rotas
 const routes = express.Router();
 //Rotas da plataforma
-//Listagem de ongs & Cadastro de ongs
 routes.get('/ongs', OngController.index);
 
 routes.post('/ongs', celebrate({
