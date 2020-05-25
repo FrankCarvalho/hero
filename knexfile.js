@@ -6,8 +6,8 @@ module.exports = {
     client: 'mysql',
     connection: {
     host : '127.0.0.1',
-    user : 'root',
-    password : '',
+    user : 'francisdev',
+    password : 'fran9876',
     database : 'heropl'
     },
     migrations: {
@@ -30,17 +30,19 @@ module.exports = {
   production: {
     client: 'mysql',
     connection: {
-      database: 'heropl',
-      user:     'francisdev',
-      password: 'fran9876'
+      host : '127.0.0.1',
+    user : 'francisdev',
+    password : 'fran9876',
+    database : 'heropl'
     },
     pool: {
       min: 2,
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
-    }
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault: true,
   }
 
 };
