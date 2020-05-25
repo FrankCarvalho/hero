@@ -30,7 +30,6 @@ routes.get('/profile', celebrate({
 }),ProfileController.index);
 
 
-//Cadastro de incidents, Listagem de incidents e Excluir de incidents
 routes.post('/incidents', celebrate({
     [Segments.BODY]: Joi.object().keys({
         titulo: Joi.string().required(),
