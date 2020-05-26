@@ -16,17 +16,6 @@ module.exports = {
     useNullAsDefault: true,
   },
 
-  test: {
-    client: 'mysql',
-    connection: {
-      filename: './src/database/test.sql'
-    },
-    migrations: {
-      directory: './src/database/migrations'
-    },
-    useNullAsDefault: true,
-  },
-
   production: {
     client: 'mysql',
     connection: {
