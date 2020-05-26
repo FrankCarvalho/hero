@@ -6,8 +6,8 @@ module.exports = {
     client: 'mysql',
     connection: {
     host : '127.0.0.1',
-    user : 'francisdev',
-    password : 'fran9876',
+    user : 'root',
+    password : '',
     database : 'heropl'
     },
     migrations: {
@@ -19,7 +19,7 @@ module.exports = {
   production: {
     client: 'mysql',
     connection: {
-      host : '127.0.0.1',
+      host : 'mysql669.umbler.com',
     user : 'francisdev',
     password : 'fran9876',
     database : 'heropl'

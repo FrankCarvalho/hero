@@ -1070,8 +1070,6 @@ chokidar@^3.2.2:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.4.0"
-  optionalDependencies:
-    fsevents "~2.1.2"
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -2551,8 +2549,6 @@ jest-haste-map@^25.5.1:
     sane "^4.0.3"
     walker "^1.0.7"
     which "^2.0.2"
-  optionalDependencies:
-    fsevents "^2.1.2"
 
 jest-jasmine2@^25.5.4:
   version "25.5.4"
