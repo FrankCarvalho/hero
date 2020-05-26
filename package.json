@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/service.js",
+    "start": "nodemon src/index",
     "test": "cross-env NODE_ENV=test jest"
   },
   "keywords": [],
